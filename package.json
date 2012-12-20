@@ -1,0 +1,24 @@
+{
+  "name": "TeamSync",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": ">=3.0.4",
+    "express-resource": ">=1.0.0",
+    "generic-pool": ">=2.0.2",
+    "db-mysql": ">=0.7.6",
+    "node-uuid": ">=1.4.0"
+  },
+  "scripts": {"start": "node app.js", "setup": "node setup.js"},
+  "bin": "./app.js",
+  "homepage": "http://lamperi.name",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/lamperi/teamsync.git"
+  },
+  "author": {
+    "name": "Toni Fadjukoff",
+    "email": "lamperi@gmail.com",
+    "url": "http://lamperi.name"
+  },
+  "private": true
+}
