@@ -1,0 +1,29 @@
+REST API
+
+- Allow editing and deleting user profile.
+- Allow deleting a token if crendentials are provided. Shouldn't be needed though as it will expire in 30 minutes.
+
+Teams: importable, tier, name - should be enough.
+- Allow POST/creating a new team.
+- Allow PUT/editing existing team.
+- Allow DELETE/deleting existing team.
+
+Extra:
+- Organize code into several files.
+- Add "last used"-field to users to automatically purge them.
+- Limit the number of teams.
+- Enable password recovery.
+- Validate importables.
+- Validate email, only "@" should be checked.
+- Use NoSQL database instead of mysql for buzzwords.
+
+Issues to solve:
+- Integrate into webclient
+  - Cross-domain REST -> relay has to do the RESTing?
+- Integrate into Teambuilder
+  - Should be easy to use, almost transparent.
+
+Web GUI
+
+- Need Design
+- Not priority
